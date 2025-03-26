@@ -13,6 +13,7 @@ const dispatch = useDispatch()
       <h2>Count: {count}</h2>
       <button onClick={()=>dispatch(increment())}>+</button>
       <button onClick={()=>dispatch(decrement())}>-</button>
+      <button onClick={()=>0}>Reset </button>
   
 
     </div>
